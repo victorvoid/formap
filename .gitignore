@@ -17,3 +17,5 @@ pom.xml.asc
 .idea
 formap.iml
 figwheel_server.log
+.rebel_readline_history
+pom.xml

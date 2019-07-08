@@ -12,4 +12,4 @@
 
 (devtools/install!)
 
-(core/init!)
+;(core/init!)

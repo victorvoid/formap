@@ -1,6 +1,6 @@
-(defproject formap "0.1.0-SNAPSHOT"
+(defproject formap "0.1.1"
   :description "A reagent library to build awesome dynamic forms."
-  :url "http://example.com/FIXME"
+  :url "https://github.com/victorvoid/formap"
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
