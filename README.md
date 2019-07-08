@@ -31,7 +31,7 @@ First you need to create a literal map that describe a form and use it for build
 
 
 ```cljs
-(ns fluany.pages.signin
+(ns app.pages.signin
   (:require
    [reagent.core :as r]
    [app.utils.validators :refer [username-or-email? password?]]
@@ -65,7 +65,7 @@ First you need to create a literal map that describe a form and use it for build
 You can use validators and set a message error.
 
 ```cljs
-(ns fluany.pages.signin
+(ns app.pages.signin
   (:require
    [reagent.core :as r]
    [formap.core :refer [build-form]]))
