@@ -1,4 +1,9 @@
-# Formap
+# formap
+[![license](https://badgen.now.sh/badge/license/MIT)](./LICENSE)
+
+
+![](https://github.com/victorvoid/formap/blob/master/public/img/formap.svg)
+
 A reagent library to build awesome dynamic forms. 🔨
 
 [![Clojars Project](http://clojars.org/formap/latest-version.svg)](https://clojars.org/formap)
@@ -18,11 +23,11 @@ The main objective is to build a form by a literal map that describe all fields.
 
 - ♥️ Building form using literal map.
 - 🔫 Validators support.
-- ⚡️ Meta class in fields (touched|untouched|valid|invalid|etc).
+- 📄 Meta class in fields (touched|untouched|valid|invalid|etc).
 
 ## Documentation
 
-First you need create your literal map that describe a form and use it for build.
+First you need to create a literal map that describe a form and use it for build.
 
 
 ```cljs
@@ -31,7 +36,6 @@ First you need create your literal map that describe a form and use it for build
    [reagent.core :as r]
    [app.utils.validators :refer [username-or-email? password?]]
    [formap.core :refer [build-form]]))
-
 
 (def signin-fields
   {:fields [{:name "login"
@@ -100,3 +104,8 @@ You can use validators and set a message error.
                :on-submit #(js/console.log %)}
     [:button "Sign in"]])
 ```
+
+License
+-------
+
+The code is available under the [MIT License](LICENSE.md).
