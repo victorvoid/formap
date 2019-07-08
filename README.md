@@ -62,7 +62,7 @@ First you need to create a literal map that describe a form and use it for build
 
 
 ### Validators
-You can use validators and set a message error.
+You can create your own validator and set a message error.
 
 ```cljs
 (ns app.pages.signin
