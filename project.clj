@@ -1,6 +1,8 @@
-(defproject formap "0.1.1"
+(defproject formap "0.1.2"
   :description "A reagent library to build awesome dynamic forms."
   :url "https://github.com/victorvoid/formap"
+  :deploy-repositories [["releases"  {:sign-releases false :url "https://clojars.org/repo"}]
+                        ["snapshots" {:sign-releases false :url "https://clojars.org/repo"}]]
   :license {:name "Eclipse Public License"
             :url "http://www.eclipse.org/legal/epl-v10.html"}
 
