@@ -54,6 +54,9 @@ First you need create your literal map that describe a form and use it for build
     [:button "Sign in"]])
 ```
 
+![](https://i.imgur.com/OZ81oA0.gif)
+
+
 ### Validators
 You can use validators and set a message error.
 
